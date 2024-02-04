@@ -19,7 +19,9 @@ fn main() {
 
     // Get all the algos
     let bubble_sort = algos::BubbleSorter;
+    let insertion_sort = algos::InsertionSorter;
 
     // Run the algos
     let _ = run_algo(my_slice, &bubble_sort, "Bubble");
+    let _ = run_algo(my_slice, &insertion_sort, "Insertion");
 }
